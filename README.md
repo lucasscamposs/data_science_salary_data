@@ -1,9 +1,5 @@
 # Projeto de Ciência de Dados - Experiência e Salário dos Funcionários
 
-![sns-xp](https://github.com/user-attachments/assets/3858bfdd-6dbb-403b-9ddc-f97ee6a67910)
-
-
-
 ## Pergunta Principal
 Se uma empresa fosse contratar esses funcionários, o tempo de experiência que eles possuem faria com que a empresa tivesse que pagar um salário maior por esses funcionários?
 
@@ -33,6 +29,7 @@ O dataset utilizado foi retirado do Kaggle e está disponível [aqui](https://ww
 - **Visualizações Gráficas**:
   - **Distribuição do Salário**: Utilização de KDE plot para analisar a distribuição dos salários.
   - **Distribuição da Experiência**: Utilização de KDE plot para analisar a distribuição dos anos de experiência.
+  - ![sns-xp](https://github.com/user-attachments/assets/3858bfdd-6dbb-403b-9ddc-f97ee6a67910)
   - **Boxplots**: Boxplots para identificar outliers tanto na variável `Renda` quanto na `Xp`.
   - **Scatter Plot**: Gráfico de dispersão para visualizar a relação entre `Renda` e `Xp`.
   - **Regressão Linear**: Adição de uma linha de regressão ao scatter plot para melhor visualizar a tendência.
