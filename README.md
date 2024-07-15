@@ -14,12 +14,12 @@ O dataset utilizado foi retirado do Kaggle e está disponível [aqui](https://ww
 - **Salary**: Salário dos funcionários.
 
 ## Bibliotecas Utilizadas
-os: Para a leitura dos dados.
-numpy: Para operações numéricas.
-pandas: Para manipulação de dados.
-matplotlib.pyplot: Para criação de gráficos.
-seaborn: Para visualização de dados estatísticos.
-warnings: Para gerenciar avisos e manter o ambiente de trabalho limpo.
+- **os**: Para a leitura dos dados.
+- **numpy**: Para operações numéricas.
+- **pandas**: Para manipulação de dados.
+- **matplotlib.pyplot**: Para criação de gráficos.
+- **seaborn**: Para visualização de dados estatísticos.
+- **warnings**:Para gerenciar avisos e manter o ambiente de trabalho limpo.
 
 ## Carregamento e Preparação dos Dados
 - **Carregamento dos Dados**: O dataset foi carregado e verificado.
