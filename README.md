@@ -2,12 +2,12 @@
 ![Capa](https://github.com/user-attachments/assets/d581e5e0-3ee7-44fc-bfae-c31dbbb087b1)
 
 ## Introdução
-Este projeto tem como objetivo analisar se existe uma relação significativa entre o tempo de experiência dos funcionários e o salário que eles recebem
+O dataset que vou explorar trata-se de dados fictícios do tempo de experiência dos funcionários e do salário que eles recebem.
+O objetivo da análise consiste em responder a seguinte pergunta: "Se uma empresa fosse contratar esses funcionários, o tempo de experiência que eles possuem fariam com que a empresa tivesse que pagar um salário maior por esses funcionários?"
 
-Se uma empresa fosse contratar esses funcionários, o tempo de experiência que eles possuem faria com que a empresa tivesse que pagar um salário maior por esses funcionários?
-Utilizamos um dataset fictício que contém informações sobre anos de experiência e salários.
+Para responder a essa pergunta, analisei os dados para identificar se há uma correlação significativa entre os anos de experiência e o salário. Se for encontrada uma relação positiva, isso indicaria que mais anos de experiência resultam em salários mais altos. Por outro lado, se não houver correlação, o tempo de experiência não seria um fator determinante para o salário.
 
-## 2. Dataset
+## Dataset
 O dataset utilizado foi retirado do Kaggle e está disponível [aqui](https://www.kaggle.com/datasets/karthickveerakumar/salary-data-simple-linear-regression/data). Ele inclui duas colunas principais:
 - **YearsExperience**: Anos de experiência dos funcionários.
 - **Salary**: Salário dos funcionários.
