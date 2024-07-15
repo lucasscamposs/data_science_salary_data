@@ -1,4 +1,5 @@
 # Projeto de Ciência de Dados - Experiência e Salário dos Funcionários
+![Capa](https://github.com/user-attachments/assets/d581e5e0-3ee7-44fc-bfae-c31dbbb087b1)
 
 ## Pergunta Principal
 Se uma empresa fosse contratar esses funcionários, o tempo de experiência que eles possuem faria com que a empresa tivesse que pagar um salário maior por esses funcionários?
