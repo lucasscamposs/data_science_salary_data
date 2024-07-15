@@ -29,10 +29,13 @@ O dataset utilizado foi retirado do Kaggle e está disponível [aqui](https://ww
 - **Visualizações Gráficas**:
   - **Distribuição do Salário**: Utilização de KDE plot para analisar a distribuição dos salários.
   - **Distribuição da Experiência**: Utilização de KDE plot para analisar a distribuição dos anos de experiência.
-  - ![sns-xp](https://github.com/user-attachments/assets/3858bfdd-6dbb-403b-9ddc-f97ee6a67910)
   - **Boxplots**: Boxplots para identificar outliers tanto na variável `Renda` quanto na `Xp`.
   - **Scatter Plot**: Gráfico de dispersão para visualizar a relação entre `Renda` e `Xp`.
+  - ![dispersão](https://github.com/user-attachments/assets/fd783709-ccb9-40d4-8869-6e7c5c4312c5)
+
   - **Regressão Linear**: Adição de uma linha de regressão ao scatter plot para melhor visualizar a tendência.
+  -   - ![sns-xp](https://github.com/user-attachments/assets/3858bfdd-6dbb-403b-9ddc-f97ee6a67910)
+
 
 ## 6. Análise de Correlação
 - **Correlação de Pearson**: Cálculo da correlação de Pearson entre `Xp` e `Renda` e visualização através de um heatmap.
