@@ -1,5 +1,9 @@
 # Projeto de Ciência de Dados - Experiência e Salário dos Funcionários
 
+<p align="center">
+  <img src="https://github.com/sch-paulo/delivery_center_data_analysis/assets/132720763/a8e2b9d2-a87e-4ecb-8870-9ce5d750399a" alt="Descrição da imagem">
+</p>
+
 ## Pergunta Principal
 Se uma empresa fosse contratar esses funcionários, o tempo de experiência que eles possuem faria com que a empresa tivesse que pagar um salário maior por esses funcionários?
 
