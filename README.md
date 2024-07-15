@@ -39,7 +39,10 @@ O dataset utilizado foi retirado do Kaggle e está disponível [aqui](https://ww
 
 ## 6. Análise de Correlação
 - **Correlação de Pearson**: Cálculo da correlação de Pearson entre `Xp` e `Renda` e visualização através de um heatmap.
+- ![pearson](https://github.com/user-attachments/assets/53fcc0e7-e0f0-4d2d-a83b-e6e02da3fe9c)
+
 - **Correlação de Spearman**: Cálculo da correlação de Spearman entre `Xp` e `Renda` e visualização através de um heatmap.
+![spearman](https://github.com/user-attachments/assets/df84cdad-4f80-4d87-9987-7f40e949a7b5)
 
 ## 7. Conclusão
 A análise realizada no dataset sugere que há uma relação entre o tempo de experiência dos funcionários e o salário que eles recebem. Tanto os gráficos de dispersão com linha de regressão quanto os cálculos de correlação indicam uma tendência de aumento de salário com o aumento dos anos de experiência.
