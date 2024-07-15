@@ -1,5 +1,8 @@
 # Projeto de Ciência de Dados - Experiência e Salário dos Funcionários
 
+plt.savefig('grafico.png', dpi=300)  # Salva o gráfico com 300 DPI
+
+
 ## Pergunta Principal
 Se uma empresa fosse contratar esses funcionários, o tempo de experiência que eles possuem faria com que a empresa tivesse que pagar um salário maior por esses funcionários?
 
