@@ -3,6 +3,7 @@
 
 ## Introdução
 O dataset que vou explorar trata-se de dados fictícios do tempo de experiência dos funcionários e do salário que eles recebem.
+
 O objetivo da análise consiste em responder a seguinte pergunta: "Se uma empresa fosse contratar esses funcionários, o tempo de experiência que eles possuem fariam com que a empresa tivesse que pagar um salário maior por esses funcionários?"
 
 Para responder a essa pergunta, analisei os dados para identificar se há uma correlação significativa entre os anos de experiência e o salário. Se for encontrada uma relação positiva, isso indicaria que mais anos de experiência resultam em salários mais altos. Por outro lado, se não houver correlação, o tempo de experiência não seria um fator determinante para o salário.
