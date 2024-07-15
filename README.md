@@ -1,6 +1,7 @@
 # Projeto de Ciência de Dados - Experiência e Salário dos Funcionários
 
-plt.savefig('grafico.png', dpi=300)  # Salva o gráfico com 300 DPI
+![sns-xp](https://github.com/user-attachments/assets/3858bfdd-6dbb-403b-9ddc-f97ee6a67910)
+
 
 
 ## Pergunta Principal
