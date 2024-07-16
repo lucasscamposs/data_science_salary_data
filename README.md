@@ -8,6 +8,18 @@ O objetivo da análise consiste em responder a seguinte pergunta: "Se uma empres
 
 Para responder a essa pergunta, analisei os dados para identificar se há uma correlação significativa entre os anos de experiência e o salário. Se for encontrada uma relação positiva, isso indicaria que mais anos de experiência resultam em salários mais altos. Por outro lado, se não houver correlação, o tempo de experiência não seria um fator determinante para o salário.
 
+Primeiro, eu importei as bibliotecas necessárias para a modelagem e manipulação de dados, incluindo numpy e pandas. Em seguida, importei bibliotecas para análise gráfica, como matplotlib.pyplot e seaborn, e desabilitei avisos desnecessários utilizando a biblioteca warnings.
+
+Depois, mudei o diretório de trabalho para a pasta onde está localizada a base de dados usando os.chdir. Li a base de dados Salary_Data.csv com pd.read_csv e verifiquei as primeiras linhas do dataframe para confirmar a leitura correta dos dados.
+
+Renomeei as colunas do dataframe para facilitar a manipulação futura: "YearsExperience" foi renomeado para "Xp" e "Salary" foi renomeado para "Renda". Também verifiquei a dimensão do dataframe com Base_Dados.shape, que retornou um dataframe com 30 linhas e 2 colunas.
+
+Chequei se havia campos nulos na base de dados com Base_Dados.isnull().sum(), o que confirmou a ausência de valores nulos. Para visualizar isso de forma gráfica, usei sns.heatmap para gerar um mapa de calor.
+
+Finalmente, usei Base_Dados.describe() para gerar estatísticas descritivas das colunas "Xp" e "Renda", obtendo informações como média, desvio padrão, valores mínimos e máximos, e percentis.
+
+Todo o passo a passo dos códigos do projeto está demostrado no arquivo data_science_salary_data.ipynb, abaixo vou deixar uma apresentação desse passo passo e mostrar o resultado da análise.
+
 ## Dataset
 O dataset utilizado foi retirado do Kaggle e está disponível [aqui](https://www.kaggle.com/datasets/karthickveerakumar/salary-data-simple-linear-regression/data). Ele inclui duas colunas principais:
 - **YearsExperience**: Anos de experiência dos funcionários.
@@ -29,7 +41,8 @@ O dataset utilizado foi retirado do Kaggle e está disponível [aqui](https://ww
 ## Análise Exploratória de Dados (EDA)
 - **Dimensões do Dataset**: Verificação da quantidade de linhas e colunas.
 - **Análise Descritiva**: Estatísticas descritivas básicas do dataset.
-- **Visualizações Gráficas**:
+
+# Visualizações Gráficas
   - **Distribuição do Salário**: Utilização de KDE plot para analisar a distribuição dos salários.
   - ![kdeRenda](https://github.com/user-attachments/assets/2e9a6419-04d3-4dd2-a6f9-6fbd6c5f7f55)
 
@@ -46,7 +59,7 @@ O dataset utilizado foi retirado do Kaggle e está disponível [aqui](https://ww
 
 ## Análise de Correlação
 - **Correlação de Pearson**: Cálculo da correlação de Pearson entre `Xp` e `Renda` e visualização através de um heatmap.
-- ![pearson](https://github.com/user-attachments/assets/53fcc0e7-e0f0-4d2d-a83b-e6e02da3fe9c)
+![pearson](https://github.com/user-attachments/assets/53fcc0e7-e0f0-4d2d-a83b-e6e02da3fe9c)
 
 - **Correlação de Spearman**: Cálculo da correlação de Spearman entre `Xp` e `Renda` e visualização através de um heatmap.
 ![spearman](https://github.com/user-attachments/assets/df84cdad-4f80-4d87-9987-7f40e949a7b5)
