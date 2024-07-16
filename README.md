@@ -38,9 +38,9 @@ O dataset utilizado foi retirado do Kaggle e está disponível [aqui](https://ww
 - **Renomeação das Colunas**: As colunas foram renomeadas para `Xp` (Experiência) e `Renda` (Salário).
 - **Verificação de Nulos**: Foi verificado se existiam valores nulos no dataset.
 
-## Análise Exploratória de Dados (EDA)
-Primeiro foi feito uma verificação da quantidade de linhas e colunas do dataset e então uma análise descritiva breve foi feita para darmos início a visualização gráfica.
-# Visualizações Gráficas
+# Análise Exploratória de Dados (EDA)
+Primeiro foi feito uma verificação da quantidade de linhas e colunas do dataframe e em seguida uma análise descritiva breve para darmos início a visualização gráfica.
+## Visualizações Gráficas
   - **Distribuição do Salário**: Utilização de KDE plot para analisar a distribuição dos salários.
   - ![kdeRenda](https://github.com/user-attachments/assets/2e9a6419-04d3-4dd2-a6f9-6fbd6c5f7f55)
 
