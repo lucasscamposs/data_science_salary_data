@@ -43,23 +43,26 @@ Primeiro foi feito uma verificação da quantidade de linhas e colunas do datafr
 ## Visualizações Gráficas
 **Distribuição do Salário**: Utilização de KDE plot para analisar a distribuição dos salários.
 ![kdeRenda](https://github.com/user-attachments/assets/2e9a6419-04d3-4dd2-a6f9-6fbd6c5f7f55)
+
 **Distribuição da Experiência**: Utilização de KDE plot para analisar a distribuição dos anos de experiência.
 ![kdeXp](https://github.com/user-attachments/assets/a7ac75f3-ed04-4c4e-90be-b65e320fdb2f)
+
 **Boxplots**: Boxplots para identificar outliers tanto na variável `Renda` quanto na `Xp`.
 ![Untitled design (11)](https://github.com/user-attachments/assets/613b4023-098d-4ef5-b536-19ecd9fffe67)
 
 **Scatter Plot**: Gráfico de dispersão para visualizar a relação entre `Renda` e `Xp`.
 ![dispersão](https://github.com/user-attachments/assets/fd783709-ccb9-40d4-8869-6e7c5c4312c5)
+
 **Regressão Linear**: Adição de uma linha de regressão ao scatter plot para melhor visualizar a tendência.
 ![sns-xp](https://github.com/user-attachments/assets/3858bfdd-6dbb-403b-9ddc-f97ee6a67910)
 
 
-## Análise de Correlação
-- **Correlação de Pearson**: Cálculo da correlação de Pearson entre `Xp` e `Renda` e visualização através de um heatmap.
+# Análise de Correlação
+**Correlação de Pearson**: Cálculo da correlação de Pearson entre `Xp` e `Renda` e visualização através de um heatmap.
 ![pearson](https://github.com/user-attachments/assets/53fcc0e7-e0f0-4d2d-a83b-e6e02da3fe9c)
 
-- **Correlação de Spearman**: Cálculo da correlação de Spearman entre `Xp` e `Renda` e visualização através de um heatmap.
+**Correlação de Spearman**: Cálculo da correlação de Spearman entre `Xp` e `Renda` e visualização através de um heatmap.
 ![spearman](https://github.com/user-attachments/assets/df84cdad-4f80-4d87-9987-7f40e949a7b5)
 
-## Conclusão
+# Conclusão
 A análise realizada no dataset sugere que há uma relação entre o tempo de experiência dos funcionários e o salário que eles recebem. Tanto os gráficos de dispersão com linha de regressão quanto os cálculos de correlação indicam uma tendência de aumento de salário com o aumento dos anos de experiência.
