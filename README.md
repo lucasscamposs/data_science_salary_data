@@ -20,11 +20,13 @@ Finalmente, usei Base_Dados.describe() para gerar estatísticas descritivas das 
 Todo o passo a passo dos códigos do projeto está demostrado no arquivo `data_science_salary_data.ipynb`, abaixo vou deixar uma apresentação desse passo passo e mostrar o resultado da análise.
 
 ## Dataset
+
 O dataset utilizado foi retirado do Kaggle e está disponível [aqui](https://www.kaggle.com/datasets/karthickveerakumar/salary-data-simple-linear-regression/data). Ele inclui duas colunas principais:
 - **YearsExperience**: Anos de experiência dos funcionários.
 - **Salary**: Salário dos funcionários.
 
 ## Bibliotecas Utilizadas
+
 - **os**: Para a leitura dos dados.
 - **numpy**: Para operações numéricas.
 - **pandas**: Para manipulação de dados.
@@ -33,12 +35,14 @@ O dataset utilizado foi retirado do Kaggle e está disponível [aqui](https://ww
 - **warnings**:Para gerenciar avisos e manter o ambiente de trabalho limpo.
 
 ## Carregamento e Preparação dos Dados
+
 - **Carregamento dos Dados**: O dataset foi carregado utilizando "os" e verificado.
 - **Renomeação das Colunas**: As colunas foram renomeadas para `Xp` (Experiência) e `Renda` (Salário).
 - **Verificação de Nulos**: Foi verificado se existiam valores nulos no dataset.
 
 # Análise Exploratória de Dados (EDA)
-Primeiro foi feito uma verificação da quantidade de linhas e colunas do dataframe e em seguida uma análise descritiva breve para darmos início a visualizações gráficas.
+
+Primeiro foi feito uma verificação da quantidade de linhas e colunas do dataframe e em seguida uma análise descritiva breve para darmos início as visualizações gráficas.
 ## Visualizações Gráficas
 **Distribuição do Salário**: Utilização de KDE plot para analisar a distribuição dos salários.
 ![kdeRenda](https://github.com/user-attachments/assets/2e9a6419-04d3-4dd2-a6f9-6fbd6c5f7f55)
@@ -57,6 +61,7 @@ Primeiro foi feito uma verificação da quantidade de linhas e colunas do datafr
 
 
 # Análise de Correlação
+
 **Correlação de Pearson**: Cálculo da correlação de Pearson entre `Xp` e `Renda` e visualização através de um heatmap.
 ![pearson](https://github.com/user-attachments/assets/53fcc0e7-e0f0-4d2d-a83b-e6e02da3fe9c)
 
