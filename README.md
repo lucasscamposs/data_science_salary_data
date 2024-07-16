@@ -69,4 +69,11 @@ Primeiro foi feito uma verificação da quantidade de linhas e colunas do datafr
 ![spearman](https://github.com/user-attachments/assets/df84cdad-4f80-4d87-9987-7f40e949a7b5)
 
 # Conclusão
-A análise realizada no dataset sugere que há uma relação entre o tempo de experiência dos funcionários e o salário que eles recebem. Tanto os gráficos de dispersão com linha de regressão quanto os cálculos de correlação indicam uma tendência de aumento de salário com o aumento dos anos de experiência.
+
+Após realizar essa análise detalhada fica evidente que sim existe relação entre o tempo de experiência dos funcionários e o salário que recebem. Os gráficos de dispersão com linha de regressão e os cálculos de correlação apontam para uma tendência clara: à medida que aumentam os anos de experiência, os salários também tendem a aumentar.
+
+Os gráficos KDE e boxplots nos levam a entender melhor a distribuição dos salários e dos anos de experiência, além de identificar possíveis outliers. O scatter plot, com a linha de regressão adicionada, revelou uma tendência evidente na relação entre experiência e salário.
+
+Para medir a força dessa relação, calculei as correlações de Pearson e Spearman e apresentei os resultados em mapas de calor. Ambos os métodos mostraram uma correlação positiva significativa, sugerindo que funcionários com mais anos de experiência geralmente recebem salários mais altos.
+
+Portanto, se uma empresa está contratando esses funcionários, com certeza o tempo de experiência dos funcionários vai influenciar o salário oferecido.
