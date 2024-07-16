@@ -18,7 +18,7 @@ Chequei se havia campos nulos na base de dados com Base_Dados.isnull().sum(), o 
 
 Finalmente, usei Base_Dados.describe() para gerar estatísticas descritivas das colunas "Xp" e "Renda", obtendo informações como média, desvio padrão, valores mínimos e máximos, e percentis.
 
-Todo o passo a passo dos códigos do projeto está demostrado no arquivo "data_science_salary_data.ipynb", abaixo vou deixar uma apresentação desse passo passo e mostrar o resultado da análise.
+Todo o passo a passo dos códigos do projeto está demostrado no arquivo `data_science_salary_data.ipynb`, abaixo vou deixar uma apresentação desse passo passo e mostrar o resultado da análise.
 
 ## Dataset
 O dataset utilizado foi retirado do Kaggle e está disponível [aqui](https://www.kaggle.com/datasets/karthickveerakumar/salary-data-simple-linear-regression/data). Ele inclui duas colunas principais:
