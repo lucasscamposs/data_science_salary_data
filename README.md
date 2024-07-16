@@ -19,7 +19,7 @@ Finalmente, usei Base_Dados.describe() para gerar estatísticas descritivas das 
 
 Todo o passo a passo dos códigos do projeto está demostrado no arquivo `data_science_salary_data.ipynb`.
 
-Abaixo vou deixar uma apresentação desse passo passo e mostrar o resultado da análise.
+Abaixo vou deixar uma apresentação desse passo a passo e mostrar o resultado da análise.
 
 ## Dataset
 
