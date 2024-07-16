@@ -18,7 +18,7 @@ Chequei se havia campos nulos na base de dados com Base_Dados.isnull().sum(), o 
 
 Finalmente, usei Base_Dados.describe() para gerar estatísticas descritivas das colunas "Xp" e "Renda", obtendo informações como média, desvio padrão, valores mínimos e máximos, e percentis.
 
-Todo o passo a passo dos códigos do projeto está demostrado no arquivo data_science_salary_data.ipynb, abaixo vou deixar uma apresentação desse passo passo e mostrar o resultado da análise.
+Todo o passo a passo dos códigos do projeto está demostrado no arquivo "data_science_salary_data.ipynb", abaixo vou deixar uma apresentação desse passo passo e mostrar o resultado da análise.
 
 ## Dataset
 O dataset utilizado foi retirado do Kaggle e está disponível [aqui](https://www.kaggle.com/datasets/karthickveerakumar/salary-data-simple-linear-regression/data). Ele inclui duas colunas principais:
@@ -34,14 +34,12 @@ O dataset utilizado foi retirado do Kaggle e está disponível [aqui](https://ww
 - **warnings**:Para gerenciar avisos e manter o ambiente de trabalho limpo.
 
 ## Carregamento e Preparação dos Dados
-- **Carregamento dos Dados**: O dataset foi carregado e verificado.
+- **Carregamento dos Dados**: O dataset foi carregado utilizando "os" e verificado.
 - **Renomeação das Colunas**: As colunas foram renomeadas para `Xp` (Experiência) e `Renda` (Salário).
 - **Verificação de Nulos**: Foi verificado se existiam valores nulos no dataset.
 
 ## Análise Exploratória de Dados (EDA)
-- **Dimensões do Dataset**: Verificação da quantidade de linhas e colunas.
-- **Análise Descritiva**: Estatísticas descritivas básicas do dataset.
-
+Primeiro foi feito uma verificação da quantidade de linhas e colunas do dataset e então uma análise descritiva breve foi feita para darmos início a visualização gráfica.
 # Visualizações Gráficas
   - **Distribuição do Salário**: Utilização de KDE plot para analisar a distribuição dos salários.
   - ![kdeRenda](https://github.com/user-attachments/assets/2e9a6419-04d3-4dd2-a6f9-6fbd6c5f7f55)
