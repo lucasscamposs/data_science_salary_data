@@ -42,15 +42,14 @@ O dataset utilizado foi retirado do Kaggle e está disponível [aqui](https://ww
 Primeiro foi feito uma verificação da quantidade de linhas e colunas do dataframe e em seguida uma análise descritiva breve para darmos início a visualizações gráficas.
 ## Visualizações Gráficas
 **Distribuição do Salário**: Utilização de KDE plot para analisar a distribuição dos salários.
-  - ![kdeRenda](https://github.com/user-attachments/assets/2e9a6419-04d3-4dd2-a6f9-6fbd6c5f7f55)
+![kdeRenda](https://github.com/user-attachments/assets/2e9a6419-04d3-4dd2-a6f9-6fbd6c5f7f55)
 **Distribuição da Experiência**: Utilização de KDE plot para analisar a distribuição dos anos de experiência.
-  - ![kdeXp](https://github.com/user-attachments/assets/a7ac75f3-ed04-4c4e-90be-b65e320fdb2f)
+![kdeXp](https://github.com/user-attachments/assets/a7ac75f3-ed04-4c4e-90be-b65e320fdb2f)
 **Boxplots**: Boxplots para identificar outliers tanto na variável `Renda` quanto na `Xp`.
 **Scatter Plot**: Gráfico de dispersão para visualizar a relação entre `Renda` e `Xp`.
-  - ![dispersão](https://github.com/user-attachments/assets/fd783709-ccb9-40d4-8869-6e7c5c4312c5)
-
-  - **Regressão Linear**: Adição de uma linha de regressão ao scatter plot para melhor visualizar a tendência.
-  -   - ![sns-xp](https://github.com/user-attachments/assets/3858bfdd-6dbb-403b-9ddc-f97ee6a67910)
+![dispersão](https://github.com/user-attachments/assets/fd783709-ccb9-40d4-8869-6e7c5c4312c5)
+**Regressão Linear**: Adição de uma linha de regressão ao scatter plot para melhor visualizar a tendência.
+![sns-xp](https://github.com/user-attachments/assets/3858bfdd-6dbb-403b-9ddc-f97ee6a67910)
 
 
 ## Análise de Correlação
