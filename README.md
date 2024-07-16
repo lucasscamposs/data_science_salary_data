@@ -46,6 +46,7 @@ Primeiro foi feito uma verificação da quantidade de linhas e colunas do datafr
 **Distribuição da Experiência**: Utilização de KDE plot para analisar a distribuição dos anos de experiência.
 ![kdeXp](https://github.com/user-attachments/assets/a7ac75f3-ed04-4c4e-90be-b65e320fdb2f)
 **Boxplots**: Boxplots para identificar outliers tanto na variável `Renda` quanto na `Xp`.
+![Renda](https://github.com/user-attachments/assets/4f4fc5e6-d914-43d5-8bab-a4078398dfcb)
 **Scatter Plot**: Gráfico de dispersão para visualizar a relação entre `Renda` e `Xp`.
 ![dispersão](https://github.com/user-attachments/assets/fd783709-ccb9-40d4-8869-6e7c5c4312c5)
 **Regressão Linear**: Adição de uma linha de regressão ao scatter plot para melhor visualizar a tendência.
